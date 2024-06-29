@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="keywords" content="sailing, boat, skipper, yacht, memories, rental" />
+    <meta name="language" content="english"/>
+    <meta name="description" content="
+    Experience the ultimate boating destination at our premier yacht rental agency. Step into a world of adventure, where our dedicated community of sailing enthusiasts comes together to elevate their maritime experiences. With our fleet of state-of-the-art boats, expert captains, and personalized sailing excursions, we provide the perfect environment for you to explore the seas, challenge your sailing skills, and create unforgettable memories. Join us today and embark on a transformative boating journey designed exclusively for adventurers. Together, we'll redefine what it means to sail with strength, confidence, and boundless exploration."/>
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&display=swap" rel="stylesheet"/>
+    <!-- icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <!-- bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"/>
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <title>Dockside Dreams</title>
+</head>
+<body>
+ 
+    <!-- header  -->
+      <header class="container-fluid position-absolute z-3 "  id="home-nav">
+            <div class="row px-sm-5 px-3 py-2">
+                <nav class="navbar navbar-expand-lg text-end">
+                    <div class="container-fluid">
+                      <a class="navbar-brand text-beige headings-font" href="index.html"><h1 id="logo">Dockside Dreams</h1></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="my-menu"><i class="fa-solid fa-bars text-beige fs-3"></i></span>
+                      </button>
+                      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav text-uppercase fs-5">
+                          <a class="nav-link active my-active" aria-current="page" href="index.html">Home</a>
+                          <a class="nav-link" href="aboutus.html">About Us</a>
+                          <a class="nav-link" href="pricing.html">Packages</a>
+                          <a class="nav-link" href="gallery.html">Gallery</a>
+                          <a class="nav-link" href="contact.html">Contact</a>
+                          <a class="nav-link" href="author.html">Author</a>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+      </header>
+      <!-- carousel  -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/slider1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block pb-5 text-beige">
+              <h2 class="pb-lg-0 pb-3 fs-3">Discover Your Perfect Boat</h2>
+              <p class="pb-xl-5 pb-4 d-none d-lg-inline-block">Set sail on an unforgettable adventure with our wide selection of boats, from sleek sailboats to luxurious yachts. Make lasting memories on the open waters with our top-notch rental services.</p>
+              <a class="btn px-5 py-2 mb-xl-4 mb-2 headings-font fs-4" href="contact.html" role="button">Visit Us!</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/slider2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block pb-5 text-darkGrey">
+              <h2 class="headings-font text-darkGrey fs-1 mb-3">Book Your Dream Boat in Minutes</h2>
+              <p class="pb-5">Planning your boating adventure should be enjoyable. Our user-friendly booking system lets you reserve your ideal boat quickly, with transparent pricing and 24/7 support.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/slider3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block pb-5 text-darkGrey">
+              <h2 class=" fs-1 mb-3 headings-font text-darkGreyt">Sail with Confidence</h2>
+              <p class="pb-5">Your safety is our priority. All our boats are regularly inspected and equipped with essential safety gear. Enjoy peace of mind and a worry-free boating experience.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- about  -->
+     <div class="container-xl mt-0 mt-md-5 pt-0 pt-md-5">
+       <div class="row d-flex justify-content-center">
+        <div class="col-md-6 text-center text-md-end bg-grey py-5">
+          <h2 class="fs-1 my-3 mx-5">Your own captain</h2>
+          <p class="mx-5">Experience the thrill of independence as you navigate the open waters on your own. </p>
+          <p class="mx-5 d-none d-sm-inline-block"> Renting a boat alone allows you to explore at your own pace, discover hidden coves, and create a personalized adventure. Whether you're an experienced sailor or just looking for some solo time on the water, our fleet of well-maintained boats is ready for your command.</p>
+         
+          <button type="button" class="btn px-5 py-2 headings-font fs-5 text-darkGrey m-5" data-bs-toggle="modal" data-bs-target="#modal1">
+            <p>Read more</p>
+          </button>
+          <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h2 class="modal-title fs-5" id="modal-heading">Solo Adventures Await</h2>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Experience the thrill of independence as you navigate the open waters on your own. Renting a boat alone allows you to explore at your own pace, discover hidden coves, and create a personalized adventure. Whether you're an experienced sailor or just looking for some solo time on the water, our fleet of well-maintained boats is ready for your command.
+                    <hr/>
+                    Solo boat rental offers unparalleled freedom and flexibility. You decide where to go and how long to stay, creating a unique itinerary that suits your interests and schedule. Spend a day fishing in a secluded bay, or simply drift and enjoy the tranquility of the sea. The choice is yours, and the possibilities are endless.
+                    <hr/>
+                    Taking the helm of your own boat is not just about the destination; it's also about the journey. Feel the sense of accomplishment as you master the art of navigation and boat handling. Whether you’re refining your sailing skills or just embracing the challenge, solo renting provides a fulfilling and empowering experience on the water.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 text-center text-md-start bg-darkBlue py-5">
+          <h2 class="fs-1 my-3 mx-5 text-light">Guided Exploration</h2>
+          <p class="mx-5 text-light">Relax and enjoy the ride while our professional skippers take the helm..</p>
+          <p class="mx-5 text-light d-none d-sm-inline-block">Renting a boat with a skipper or guide ensures a stress-free and informative experience, allowing you to sit back and soak in the sights. Learn about local landmarks, find the best fishing spots, and gain expert insights on navigating the waters. Perfect for first-timers or those seeking a more laid-back adventure.</p>
+          <button type="button" class="btn px-5 py-2 headings-font fs-5 text-beige m-5" data-bs-toggle="modal" data-bs-target="#modal2">
+            Read more
+          </button>
+          <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title text-darkGrey" id="exampleModalLabel3">Rent a Boat with a Skipper</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <!-- modal  -->
+                <div class="modal-body">
+                  <p class="text-darkGrey">Relax and enjoy the ride while our professional skippers take the helm. Renting a boat with a skipper or guide ensures a stress-free and informative experience, allowing you to sit back and soak in the sights. Learn about local landmarks, find the best fishing spots, and gain expert insights on navigating the waters. Perfect for first-timers or those seeking a more laid-back adventure.
+                    <hr/>
+                    Our experienced skippers bring invaluable local knowledge to your boating adventure. They can take you to the best hidden gems, from pristine beaches to secret snorkeling spots. Their expertise ensures you make the most of your time on the water, discovering places and experiences you might miss on your own.
+                    <hr/>
+                    Renting with a skipper provides an added layer of safety and convenience. You can relax knowing that a professional is handling the boat, allowing you to fully enjoy your time on the water. Whether you're new to boating or just prefer a guided experience, our skippers ensure a smooth, enjoyable, and worry-free journey.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+    </div>
+
+
+    <div class="container-xl d-flex flex-column justify-content-center align-items-center text-center my-3">
+      <h2 class="fs-2 py-3">Take a look at our <a href="pricing.html"><span class="text-blue fw-bold">packages...</span></a></h2>
+    </div>
+    <!-- img wrap  -->
+    <div class="container-fluid">
+      <div class="row p-0">
+        <div class="col-12 col-xl-3 col-lg-3 col-md-6 col-sm-6 p-0 position-relative">
+          <img class="d-block hover-img img-fluid " src="assets/img/wrap1.jpg" alt="Boat" />
+          <div class="container-fluid position-absolute top-0 start-0 hover-block text-beige text-center d-flex justify-content-center align-items-center">"Sailing is not just a sport, it's a way of life. It teaches patience, resilience, and the beauty of being one with nature."</div>
+        </div>
+        <div class="col-12 col-xl-3 col-lg-3 col-md-6 col-sm-6 p-0 position-relative">
+          <img class="d-block hover-img img-fluid " src="assets/img/wrap2.jpg" alt="Boat" />
+          <div class="container-fluid position-absolute top-0 start-0 hover-block text-beige text-center d-flex justify-content-center align-items-center">"Sailing is more than just a pastime; it`s a journey of self-discovery. Each voyage challenges you to navigate not only the seas but also the depths of your own resilience and resourcefulness."</div>
+        </div>
+        <div class="col-12 col-xl-3 col-lg-3 col-md-6 col-sm-6 p-0 position-relative">
+          <img class="d-block hover-img img-fluid " src="assets/img/wrap3.jpg" alt="Boat" />
+          <div class="container-fluid position-absolute top-0 start-0 hover-block text-beige text-center d-flex justify-content-center align-items-center">"There is nothing more enticing, disenchanting, and enslaving than the life at sea. It teaches you to appreciate the vastness of the ocean and the smallness of our place within it."  
+            <br>
+            Joseph Conrad</div>
+        </div>
+        <div class="col-12 col-xl-3 col-lg-3 col-md-6 col-sm-6 p-0 position-relative">
+          <img class="d-block hover-img img-fluid " src="assets/img/wrap4.jpg" alt="Boat" />
+          <div class="container-fluid position-absolute top-0 start-0 hover-block text-beige text-center d-flex justify-content-center align-items-center">"The art of sailing is about balancing the forces of nature with the skills of the sailor. It’s a dance between the wind, the waves, and the boat, teaching us harmony, patience, and the pursuit of freedom."</div>
+        </div> 
+      </div> 
+    </div>  
+ 
+   <!-- season -->
+   <div id="season"class="container-fluid text-center text-beige">
+      <h2 class="headings-font py-5 fs-1 text-blue">Working Hours During Season</h2>
+      <div class="row">
+        <div class="col-sm-6 p-0 d-flex flex-column justify-content-center align-items-center">
+          <h3 class="headings-font fs-2 py-5">Weekdays</h3>
+           <h4 class="fs-4 pb-5">07:00 - 23:00</h4>
+        </div>
+        <div class="col-sm-6 p-0">
+          <h3 class="headings-font fs-2 py-5">Weekend</h3>
+          <h4 class="fs-4 pb-5">09:00 - 23:00</h4>
+        </div>
+      </div>
+   </div>
+ <!-- middle quote  -->
+ <div class="container-xl d-flex flex-column justify-content-center align-items-center quote text-center my-5" >
+  <p class="quote-text fs-4 mb-4">Our team of skippers is here to elevate your sailing journey with personalized guidance and unwavering support.</p>
+</div>
+ </div>
+   <!-- footer  -->
+   <div class="footer container-fluid py-5  px-sm-3 px-md-5 text-white">
+    <div class="row pt-5">
+        <div class="col-lg-4 col-md-12 mb-5 text-center text-md-start">
+            <h4 class="text-blue mb-4">Get In Touch</h4>
+            <p><i class="fa fa-map-marker-alt mr-2"></i>Zdravka Čelara 16, Beograd</p>
+            <p><i class="fa fa-phone-alt mr-2"></i>+381 64 000 000</p>
+            <p><i class="fa fa-envelope mr-2"></i>aleksandar.djordjevic.31.23&#64;ict.edu.rs</p>
+            <div class="d-flex justify-content-center mt-4 justify-content-md-start">
+                <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-12 mb-5 text-center">
+            <h4 class="text-blue mb-4">Quick Links</h4>
+            <div class="d-flex flex-column justify-content-start">
+                <a class="text-white mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                <a class="text-white mb-2" href="aboutus.html"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                <a class="text-white mb-2" href="pricing.html"><i class="fa fa-angle-right mr-2"></i>Pricing</a>
+                <a class="text-white mb-2" href="gallery.html"><i class="fa fa-angle-right mr-2"></i>Gallery</a>
+                <a class="text-white" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact</a>
+                <a class="text-white" href="author.html"><i class="fa fa-angle-right mr-2"></i>Author</a>
+                <a class="text-white" href="sitemap.xml"><i class="fa fa-angle-right mr-2"></i>Sitemap</a>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-12 mb-5 text-center text-md-end">
+          <h4 class="text-blue mb-4">Opening Hours</h4>
+          <h5 class="text-white">Monday - Friday</h5>
+          <p class="mb-4">7.00 AM - 11.00 PM</p>
+          <h5 class="text-white">Saturday - Sunday</h5>
+          <p>9.00 AM - 11.00 PM</p>
+      </div>
+  </div>
+    <div class="container border-top border-dark pt-5">
+        <p class="m-0 text-center text-white">
+            &copy; <a class="text-white font-weight-bold" href="#">Dockside Dreams Team</a>. All Rights Reserved - ICT College. Designed by
+            Aleksandar Djordjevic
+        </p>
+    </div>
+    </div>
+    <!-- bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
