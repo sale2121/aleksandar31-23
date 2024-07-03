@@ -65,14 +65,14 @@ h1,h2, h3,p{
     font-family: 'Bebas Neue', sans-serif;
 }
 
-/*margins, paddings and width*/
+
 .my-w-100{
     width: 100% !important; 
 }
 .my-h-50{
     height: 50vh !important;
 }
-/* layout  */
+
 .carousel-item{
     height: 100vh;
     color: #000000;
